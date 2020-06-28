@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+
+{% block content %}
+      	<div class="container">
+        		<div class="row">
+              <div class="col-sm-3">
+                <h3>Mục lục</h3>
+                <div class="panel-group">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong1">Chương 1</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong1" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Biểu diễn bằng ngôn ngữ lập trình') }}" class="list-group-item">Biểu diễn thuật toán bằng ngôn ngữ lập trình</a>
+                        <a href="{{ url_for('main.search',q='Dạng mã giả') }}" class="list-group-item">Dạng mã giả</a>
+                        <a href="{{ url_for('main.search',q='Dạng lưu đồ') }}" class="list-group-item">Dạng lưu đồ</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong2">Chương 2</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong2" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Thuật toán sắp xếp') }}" class="list-group-item">Thuật toán sắp xếp</a>
+                        <a href="{{ url_for('main.search',q='Thuật toán tìm kiếm') }}" class="list-group-item">Thuật toán tìm kiếm</a>
+                        <a href="{{ url_for('main.search',q='Bubble sort') }}" class="list-group-item">Bubble sort</a>
+                        <a href="{{ url_for('main.search',q='Heap sort') }}" class="list-group-item">Heap sort</a>
+                        <a href="{{ url_for('main.search',q='Insertion sort') }}" class="list-group-item">Insertion sort</a>
+                        <a href="{{ url_for('main.search',q='Interchange sort') }}" class="list-group-item">Interchange sort</a>
+                        <a href="{{ url_for('main.search',q='Merge sort') }}" class="list-group-item">Merge sort</a>
+                        <a href="{{ url_for('main.search',q='Quick sort') }}" class="list-group-item">Quick sort</a>
+                        <a href="{{ url_for('main.search',q='Radix sort') }}" class="list-group-item">Radix sort</a>
+                        <a href="{{ url_for('main.search',q='Selection sort') }}" class="list-group-item">Selection sort</a>
+                        <a href="{{ url_for('main.search',q='Shell sort') }}" class="list-group-item">Shell sort</a>
+                        <a href="{{ url_for('main.search',q='Tìm kiếm nhị phân') }}" class="list-group-item">Tìm kiếm nhị phân</a>
+                        <a href="{{ url_for('main.search',q='Tìm kiếm tuyến tính') }}" class="list-group-item">Tìm kiếm tuyến tính</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong3">Chương 3</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong3" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Danh sách liên kết ngầm (mảng)') }}" class="list-group-item">Danh sách liên kết ngầm (mảng)</a>
+                        <a href="{{ url_for('main.search',q='Liên kết tường minh_(danh sách liên kết)') }}" class="list-group-item">Liên kết tường minh (danh sách liên kết)</a>
+                        <a href="{{ url_for('main.search',q='Kiểu con trỏ') }}" class="list-group-item">Kiểu con trỏ</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong4">Chương 4</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong4" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Danh sách liên kết đơn') }}" class="list-group-item">Danh sách liên kết đơn</a>
+                        <a href="{{ url_for('main.search',q='Hàng đợi') }}" class="list-group-item">Hàng đợi</a>
+                        <a href="{{ url_for('main.search',q='Ngăn xếp') }}" class="list-group-item">Ngăn xếp</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong5">Chương 5</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong5" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Danh sách liên kết kép') }}" class="list-group-item">Danh sách liên kết kép</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong6">Chương 6</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong6" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Cây') }}" class="list-group-item">Cây</a>
+                        <a href="{{ url_for('main.search',q='Cây nhị phân') }}" class="list-group-item">Cây nhị phân</a>
+                        <a href="{{ url_for('main.search',q='Nút gốc') }}" class="list-group-item">Nút gốc</a>
+                        <a href="{{ url_for('main.search',q='Nút lá') }}" class="list-group-item">Nút lá</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong7">Chương 7</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong7" class="panel-collapse collapse">
+                      <div class="list-group">
+                        <a href="{{ url_for('main.search',q='Cây nhị phân tìm kiếm') }}" class="list-group-item">Cây nhị phân tìm kiếm</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#Chuong8">Chương 8</a>
+                      </h4>
+                    </div>
+                    <div id="Chuong8" class="panel-collapse collapse">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          		<div class="col-sm-6">
+                {% if me == [] %}
+                  <h3>Không tìm thấy kết quả</h3>
+                {% else %}
+            			<h3>Kết quả tìm được</h3>
+                  <h4> {{ me[0][0] }}</h4>
+            			{% for i in me %}
+                    {% if i[0]==me[0][0] %}
+                      <p><b> {{ i[1] }} </b></p>
+                      {% for j in i[2:] %}
+                        <p> {{ j }} </p>
+                      {% endfor %}
+                    {% else %}
+                      {{ me1.add(i[0]) }}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+          		</div>
+          		<div class="col-sm-3">
+            			<h3>Từ khóa liên quan </h3>
+                  {% for i in me1 %}
+                    <a href="{{ url_for('main.search',q=i) }}"><br><b> {{ i }} </b></a>
+                  {% endfor %}
+          		</div>
+        		</div>
+      	</div>
+      {% endblock %}

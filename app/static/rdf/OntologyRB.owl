@@ -1,0 +1,883 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tupc/ontologies/2020/5/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/tupc/ontologies/2020/5/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mydatabase="urn:absolute:127.0.0.1/5000/mydatabase#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/tupc/ontologies/2020/5/untitled-ontology-4#">
+    <owl:Ontology rdf:about="urn:absolute:127.0.0.1/5000/mydatabase"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#has_relation -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#has_relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bao_gồm -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bao_gồm"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuộc_về">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_cây -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_cây">
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cây"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_nút -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bậc_của_một_nút">
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cây"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cài_đặt -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cài_đặt">
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán"/>
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Khái_niệm"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mức_của_một_nút -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mức_của_một_nút"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thao_tác -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thao_tác"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tên_chương"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ý_tưởng -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ý_tưởng"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Độ_phức_tạp_của_thuật_toán -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Độ_phức_tạp_của_thuật_toán">
+        <rdfs:domain rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biến -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biến">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biến_tĩnh -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biến_tĩnh">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biến"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biến_động -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biến_động">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biến"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán_sắp_xếp -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán_sắp_xếp">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán"/>
+        <mydatabase:Khái_niệm>Cho danh sách có n phần tử a0, a1, a2…, an-1.Sắp xếp là quá trình xử lý các phần tử trong danh sách để đặt chúng theo một thứ tự thỏa mãn một số tiêu chuẩn nào đó dựa trên thông tin lưu tại mỗi phần tử</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 2</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán_tìm_kiếm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán_tìm_kiếm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán"/>
+        <mydatabase:Khái_niệm>Cho danh sách có n phần tử a0, a1, a2…, an-1.
+Để đơn giản trong việc trình bày giải thuật ta dùng mảng 1 chiều a để lưu danh sách các phần tử nói trên trong bộ nhớ chính.
+Tìm phần tử có khoá bằng X trong mảng</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 2</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_1 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_2 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_3 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_4 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_5 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_5">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_6 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_7 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_8 -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cây -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cây">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc"/>
+        <mydatabase:Khái_niệm>Cây là một tập hợp T các phần tử (gọi là nút của cây), trong đó có một nút đặc biệt gọi là nút gốc, các nút còn lại được chia thành những tập rời nhau T1, T2, …,Tn theo quan hệ phân cấp, trong đó Ti cũng là 1 cây. 
+Mỗi nút ở cấp i sẽ quản lý một số nút ở cấp i+1. Quan hệ này người ta gọi là quan hệ cha –con.</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 6</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cây_nhị_phân -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cây_nhị_phân">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cây"/>
+        <mydatabase:Khái_niệm>Là cây trong đó mỗi nút có tối đa 2 cây con</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 6</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Cây_nhị_phân_tìm_kiếm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Cây_nhị_phân_tìm_kiếm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Cây_nhị_phân"/>
+        <mydatabase:Khái_niệm>Cây nhị phân
+Bảo đảm nguyên tắc bố trí khoá tại mỗi nút:
+       Các nút trong cây trái nhỏ hơn nút hiện hành
+       Các nút trong cây phải lớn hơn nút hiện hành</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 7</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_con_trỏ -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_con_trỏ">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+        <mydatabase:Khái_niệm>Kiểu con trỏ dùng lưu địa chỉ của một đối tượng dữ liệu khác.
+Biến thuộc kiểu con trỏ T p là biến mà giá trị của nó là địa chỉ cuả một vùng nhớ ứng với một biến kiểu T, hoặc là giá trị NULL.</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc"/>
+        <mydatabase:Khái_niệm>Danh sách= { các phần tử có cùng kiểu}
+Danh sách là một kiểu dữ liệu tuyến tính:
+Mỗi phần tử có nhiều nhất 1 phần tử đứng trước
+Mỗi phần tử có nhiều nhất 1 phần tử đứng sau</mydatabase:Khái_niệm>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Dữ_liệu"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Môn_CTDL_GT -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Môn_CTDL_GT">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bao_gồm"/>
+                <owl:allValuesFrom rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Nút -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Nút">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_dữ_liệu_có_cấu_trúc"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+        <mydatabase:Thuộc_về>Chương 2</mydatabase:Thuộc_về>
+        <mydatabase:has_relation rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán_sắp_xếp"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_tìm_kiếm -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_tìm_kiếm">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán"/>
+        <mydatabase:Thuộc_về>Chương 2</mydatabase:Thuộc_về>
+        <mydatabase:has_relation rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Bài_toán_tìm_kiếm"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_ngầm_(mảng) -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_ngầm_(mảng)">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách"/>
+        <mydatabase:Khái_niệm>Mối liên hệ giữa các phần tử được thể hiện ngầm:
+    xi : phần tử thứ i trong danh sách
+    xi , xi+1là kế cận trong danh sách
+    Phải lưu trữ liên tiếp các phần tử trong bộ nhớ
+    Công thức xác định địa chỉ phần tử thứ i: address(i) = address(1) + (i-1)*sizeof(T)</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Liên_kết_tường_minh_(danh_sách_liên_kết) -->
+
+    <owl:Class rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Liên_kết_tường_minh_(danh_sách_liên_kết)">
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Kiểu_danh_sách"/>
+        <mydatabase:Khái_niệm>Cấu trúc dữ liệu cho một phần tử:
+    Thông tin bản thân
+    Địa chỉ của phần tử kế trong danh sách
+    Mỗi phần tử là một biến động</mydatabase:Khái_niệm>
+        <mydatabase:Thuộc_về>Chương 3</mydatabase:Thuộc_về>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_bằng_ngôn_ngữ_lập_trình -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_bằng_ngôn_ngữ_lập_trình">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Biểu Diễn Bằng Ngôn Ngữ Lập Trình</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Bubble_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Bubble_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Cài_đặt>Bước 1: i = 0;// lần xử lý đầu tiên
+Bước 2: j = N-1;//Duyệt từ cuối dãy ngược về vị trí i
+Trong khi (j &gt; i) thực hiện:
+     \tNếu a[j]&lt;a[j-1]
+            \t\tDoicho(a[j],a[j-1]);
+      \tj = j-1;
+Bước 3: i = i+1;// lần xử lý kế tiếp
+    \tNếu i &gt;=N-1: Hết dãy. Dừng
+    \tNgược lại: Lặp lại Bước 2.</mydatabase:Cài_đặt>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>O(n^2)</mydatabase:Độ_phức_tạp_của_thuật_toán>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_4 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_5 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_5">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_6 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_7 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Chương_8 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Chương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_kép -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_kép">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Liên_kết_tường_minh_(danh_sách_liên_kết)"/>
+        <mydatabase:Khái_niệm>Mỗi phần tử liên kết với phần tử đứng trước và sau nó trong danh sách</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 5</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_đơn -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_đơn">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Liên_kết_tường_minh_(danh_sách_liên_kết)"/>
+        <mydatabase:Khái_niệm>Mỗi phần tử liên kết với phần tử đứng liền sau trong danh sách
+Mỗi phần tử trong danh sách liên kết đơn là một cấu trúc có hai thành phần
+Thành phần dữ liệu: Lưu trữ thông tin về bản thân phần tử
+Thành phần liên kết: Lưu địa chỉ phần tử đứng sau trong danh sách hoặc bằng NULL nếu là phần tử cuối danh sách.</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 4</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dạng_lưu_đồ -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dạng_lưu_đồ">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Là hệ thống các nút, cung hình dạng khác nhau thể hiện các chức năng khác nhau</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dạng_mã_giả -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dạng_mã_giả">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Ngôn ngữ tựa ngôn ngữ lập trình</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Dạng_ngôn_ngữ_tự_nhiên -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Dạng_ngôn_ngữ_tự_nhiên">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Biểu_diễn_thuật_toán"/>
+        <mydatabase:Khái_niệm>Ngôn ngữ tự nhiên thông qua các bước được tuần tự liệt kê để biễu diễn thuật toán.
+Là hệ thống các nút, cung hình dạng khác nhau thể hiện các chức năng khác nhau</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 1</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Heap_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Heap_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>n*log2(n)</mydatabase:Độ_phức_tạp_của_thuật_toán>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Hàng_đợi -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Hàng_đợi">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_ngầm_(mảng)"/>
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Liên_kết_tường_minh_(danh_sách_liên_kết)"/>
+        <mydatabase:Khái_niệm>Queue (hàng đợi): Là 1 vật chứa các đối tượng làm việc theo cơ chế FIFO (First In First Out), tức việc thêm 1 đối tượng vào hàng đợi hay lấy 1 đối tượng ra khỏi hàng đợi thực hiện theo cơ chế “vào trước ra trước”.</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 4</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Insertion_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Insertion_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Cài_đặt>Bước 1: i = 1;//giả sử có đoạn a[1] đã được sắp
+Bước 2: x = a[i]; //Tìm vị trí pos thích hợp trong đoạn a[1] đến a[i-1] để chèn a[i] vào
+Bước 3: Dời chỗ các phần tử từ a[pos] đến a[i-1] sang phải 1 vị trí để dành chổ cho a[i]
+Bước 4: a[pos] = x; //có đoạn a[1]..a[i] đã được sắp
+Bước 5: i = i+1;
+	\tNếu i &lt; n : Lặp lại Bước 2
+	\tNgược lại : Dừng</mydatabase:Cài_đặt>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>O(n^2)</mydatabase:Độ_phức_tạp_của_thuật_toán>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Interchange_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Interchange_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Merge_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Merge_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Ý_tưởng>Merge sort sắp xếp dãy a1, a2, ..., an dựa trên nhận xét sau:
+Mỗi dãy a1, a2, ..., anbất kỳ là một tập hợp các dãy con liên tiếp mà mỗi dãy con đều đã có thứ tự.
+Ví dụ: dãy 12, 2, 8, 5, 1, 6, 4, 15 có thể coi như gồm 5 dãy con không giảm (12); (2, 8); (5); (1, 6); (4, 15).
+Dãy đã có thứ tự coi như có 1 dãy con.
+Hướng tiếp cận: tìm cách làm giảm số dãy con không giảm của dãy ban đầu.</mydatabase:Ý_tưởng>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>Trường hợp tốt: O(nlog(n))
+Trung bình: O(nlog(n))
+Trường hợp xấu: O(nlog(n))</mydatabase:Độ_phức_tạp_của_thuật_toán>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Mảng -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Mảng">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_ngầm_(mảng)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Ngăn_xếp -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Ngăn_xếp">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Danh_sách_liên_kết_ngầm_(mảng)"/>
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Liên_kết_tường_minh_(danh_sách_liên_kết)"/>
+        <mydatabase:Khái_niệm>Stack (ngăn xếp): Là 1 vật chứa các đối tượng làm việc theo cơ chế LIFO (Last In First Out), tức việc thêm 1 đối tượng vào Stack hoặc lấy 1 đối tượng ra khỏi Stack được thực hiện theo cơ chế “vào sau ra trước”</mydatabase:Khái_niệm>
+        <mydatabase:Tên_chương>Chương 4</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Nút_gốc -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Nút_gốc">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Nút"/>
+        <mydatabase:Khái_niệm>là nút không có nút cha.</mydatabase:Khái_niệm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Nút_lá -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Nút_lá">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Nút"/>
+        <mydatabase:Khái_niệm>là nút có bậc bằng 0 .</mydatabase:Khái_niệm>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Quick_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Quick_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Ý_tưởng>Giải thuật QuickSort sắp xếp dãy a1, a2..., aN dựa trên việc phân hoạch dãy ban đầu thành 3 phần :
+Phần 1: Gồm các phần tử có giá trị bé hơn x
+Phần 2: Gồm các phần tử có giá trị bằng x
+Phần 3: Gồm các phần tử có giá trị lớn hơn x
+với x là giá trị của một phần tử tùy ý trong dãy ban đầu
+Sau khi thực hiện phân hoạch, dãy ban đầu được phân thành 3 đoạn:
+1. ak ≤ x , với k = 1 .. j
+2. ak = x , với k = j+1 .. i-1
+3. ak x , với k = i..N
+Đoạn thứ 2 đã có thứ tự.
+Nếu các đoạn 1 và 3 chỉ có 1 phần tử : đã có thứ tự
+khi đó dãy con ban đầu đã được sắp.
+Đoạn thứ 2 đã có thứ tự.
+Nếu các đoạn 1 và 3 có nhiều hơn 1 phần tử thì dãy ban đầu chỉ có thứ tự khi các đoạn 1, 3 được sắp.
+Để sắp xếp các đoạn 1 và 3, ta lần lượt tiến hành việc phân hoạch từng dãy con theo cùng phương pháp phân hoạch dãy ban đầu vừa trình bày …</mydatabase:Ý_tưởng>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>Trường hợp tốt: O(nlog(n))
+Trung bình: O(nlog(n))
+Trường hợp xấu: O(n^2)</mydatabase:Độ_phức_tạp_của_thuật_toán>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Radix_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Radix_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Cài_đặt>Bước 1 :  // k cho biết chữ số dùng để phân loại hiện hành
+      \tk = 0;    // k = 0: hàng đơn vị; k = 1:hàng chục;
+Bước 2 : //Tạo các lô chứa các loại phần tử khác nhau
+     \tKhởi tạo 10 lô B0, B1, ., B9 rỗng;
+Bước 3 :
+     \tFor i = 1 .. n do
+     \tÐặt ai vào lô Bt với t = chữ số thứ k của ai;
+Bước 4 :
+     \tNối B0, B1, ., B9 lại (theo đúng trình tự) thành a.
+Bước 5 :
+     \tk = k+1;
+     \tNếu k &lt; m thì trở lại bước 2.
+     \tNgược lại: Dừng</mydatabase:Cài_đặt>
+        <mydatabase:Ý_tưởng>Radix Sort là một thuật toán tiếp cận theo một hướng hoàn toàn khác.
+Nếu như trong các thuật toán khác, cơ sở để sắp xếp luôn là việc so sánh giá trị của 2 phần tử thì Radix Sort lại dựa trên nguyên tắc phân loại thư của bưu điện. Vì lý do đó Radix Sort còn có tên là Postman’s sort.
+Radix Sort không hề quan tâm đến việc so sánh giá trị của phần tử mà bản thân việc phân loại và trình tự phân loại sẽ tạo ra thứ tự cho các phần tử.
+Mô phỏng lại qui trình trên, để sắp xếp dãy a1, a2, ..., an, giải thuật Radix Sort thực hiện như sau:
+Trước tiên, ta có thể giả sử mỗi phần tử ai trong dãy a1, a2, ..., an là một số nguyên có tối đa m chữ số.
+Ta phân loại các phần tử lần lượt theo các chữ số hàng đơn vị, hàng chục, hàng trăm, … tương tự việc phân loại thư theo tỉnh thành, quận huyện, phường xã, ….</mydatabase:Ý_tưởng>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>O(k.(n+B)) với k là số pha radix sort, B là hệ cơ số</mydatabase:Độ_phức_tạp_của_thuật_toán>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Selection_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Selection_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Ý_tưởng>Chọn phần tử nhỏ nhất trong N phần tử trong dãy hiện hành ban đầu.
+Đưa phần tử này về vị trí đầu dãy hiện hành
+Xem dãy hiện hành chỉ còn N-1 phần tử của dãy hiện hành ban đầu
+Bắt đầu từ vị trí thứ 2;
+Lặp lại quá trình trên cho dãy hiện hành... đến khi dãy hiện hành chỉ còn 1 phần tử.</mydatabase:Ý_tưởng>
+        <mydatabase:Độ_phức_tạp_của_thuật_toán>Trường hợp tốt: O(n^2)
+Trung bình: O(n^2)
+Trường hợp xấu: O(n^2)</mydatabase:Độ_phức_tạp_của_thuật_toán>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Shell_sort -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Shell_sort">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_sắp_xếp"/>
+        <mydatabase:Cài_đặt>Bước 1:Chọn khoảng cách h[1], h[2], ..., h[k];
+	\ti = 1;
+Bước 2:Phân chia dãy ban đầu thành các dãy con cách nhau h[i] khoảng cách.
+	\tSắp xếp từng dãy con bằng phương pháp chèn trực tiếp;
+Bước 3:i = i+1;
+	\tNếu i &gt; k : Dừng
+	\tNgược lại : Lặp lại Bước 2.</mydatabase:Cài_đặt>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tìm_kiếm_nhị_phân -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tìm_kiếm_nhị_phân">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_tìm_kiếm"/>
+        <mydatabase:Ý_tưởng>Được áp dụng trên mảng đã có thứ tự.
+
+Giả xử ta xét mảng có thứ tự tăng, khi ấy ta có ai-1&lt;ai&lt;ai+1
+Nếu X&gt;ai thì X chỉ có thể xuất hiện trong đoạn [ai+1, an-1]
+Nếu X&lt;ai thì X chỉ có thể xuất hiện trong đoạn [a0, ai-1]
+Ý tưởng của giải thuật là tại mỗi bước ta so sánh X với phần tử đứng giữa trong dãy tìm kiếm hiện hành, dựa vào kết quả so sánh này mà ta quyết định giới hạn dãy tìm kiếm ở nữa dưới hay nữa trên của dãy tìm kiếm hiện hành</mydatabase:Ý_tưởng>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:127.0.0.1/5000/mydatabase#Tìm_kiếm_tuyến_tính -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Tìm_kiếm_tuyến_tính">
+        <rdf:type rdf:resource="urn:absolute:127.0.0.1/5000/mydatabase#Thuật_toán_tìm_kiếm"/>
+        <mydatabase:Ý_tưởng>So sánh X lần lượt với phần tử thứ 1, thứ 2,…của mảng a cho đến khi gặp được khóa cần tìm, hoặc tìm hết mảng mà không thấy.</mydatabase:Ý_tưởng>
+        <mydatabase:Tên_chương>Chương 2</mydatabase:Tên_chương>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <mydatabase:Khái_niệm>Được khai báo tường minh, có tên gọi
+Tồn tại trong phạm vi khai báo
+Được cấp phát trong stack
+Kích thước không đổi =&gt; không tận dụng hiệu quả bộ nhớ
+Khi biết chắc nhu cầu sử dụng đối tượng trước khi thực sự xử lý : dùng biến không động</mydatabase:Khái_niệm>
+    </rdf:Description>
+    <rdf:Description>
+        <mydatabase:Khái_niệm></mydatabase:Khái_niệm>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_1">
+        <mydatabase:Tên_chương>Giới thiệu tổng quan về môn học</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_2">
+        <mydatabase:Tên_chương>Tìm kiếm Sắp xếp</mydatabase:Tên_chương>
+        <mydatabase:Tên_chương>Tìm kiếm và Sắp xếp</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_3">
+        <mydatabase:Tên_chương>Cấu trúc dữ liệu động</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_4">
+        <mydatabase:Tên_chương>Danh sách liên kết đơn</mydatabase:Tên_chương>
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_5">
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Danh sách liên kết kép</mydatabase:Tên_chương>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_6">
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Cây</mydatabase:Tên_chương>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_7">
+        <mydatabase:Thuộc_về>Môn CTDL GT</mydatabase:Thuộc_về>
+        <mydatabase:Tên_chương>Cây nhị phân tìm kiếm</mydatabase:Tên_chương>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:absolute:127.0.0.1/5000/mydatabase#Chương_8">
+        <mydatabase:Tên_chương>Cây nhị phân cân bằng</mydatabase:Tên_chương>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
