@@ -1,0 +1,7 @@
+flask-ngrok
+flask-bootstrap
+wtforms
+flask_wtf
+simplejson
+rdflib
+rdflib_jsonld
