@@ -26,7 +26,7 @@ def get_me(text):
 		temp = clear_string(separator.join(res[i]))
 		res[i] = [j for j in temp.split("\n")]
 		
-		if res[i][0] != text:
+		if res[i][0].lower() != text.lower():
 			me1.add(res[i][0])
 			res.pop(i)
 			n -= 1
