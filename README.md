@@ -1,6 +1,6 @@
 # CS106.K21
 
-### Thành viên:
+### Thành viên nhóm DTL:
 1. 
 2.
 3.
@@ -36,3 +36,4 @@ Cài đặt các thư viện cần thiết:
 cd your/path/
 pip3 install -r requirements.txt
 ```
+### 
