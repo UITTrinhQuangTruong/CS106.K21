@@ -1,4 +1,4 @@
-flask-ngrok
+flask
 flask-bootstrap
 wtforms
 flask_wtf
