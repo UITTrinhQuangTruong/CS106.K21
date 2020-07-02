@@ -1,9 +1,9 @@
 # CS106.K21
 
 ### Thành viên nhóm DTL:
-1. 
-2.
-3.
+1. Trần Tuấn Vĩ 
+2. Phạm Xuân Thiên
+3. Vũ Ngọc Tú
 4. Trịnh Quang Trường
 5. Tăng Năng Chung
 
