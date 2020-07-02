@@ -11,6 +11,7 @@
 
 ### Yêu cầu:
 Hệ điều hành Ubuntu 18.04 trở lên (Đã test trên 20.04) 
+
 Python phiên bản >= 3.6
 ```
 sudo apt-get update
